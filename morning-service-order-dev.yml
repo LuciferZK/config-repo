@@ -3,8 +3,7 @@
     
   server:
     port: 8762
-    
-    
+        
   defaultName:
     jack
 
@@ -22,6 +21,6 @@
       serviceUrl:
         defaultZone: http://localhost:8761/eureka/
         
- logging:
-   level:
-     com.lucifer.order.dao: debug
+  logging:
+    level:
+      com.lucifer.order.dao: debug
