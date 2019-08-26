@@ -1,6 +1,10 @@
   env:
     dev
     
+ server:
+  port: 8762
+    
+    
   defaultName:
     jack
 
