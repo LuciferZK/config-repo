@@ -16,9 +16,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
-
-mybatis-plus:
-  # 如果是放在resource目录 classpath:/mapper/*Mapper.xml
-  mapper-locations: classpath:/mapper/*Mapper.xml
-  #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: com.lucifer.order.pojo
