@@ -1,6 +1,9 @@
 env:
   local
   
+defaultName:
+  jack  
+ 
 spring:
   application:
     name: morning-service-order
