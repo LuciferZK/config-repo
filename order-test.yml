@@ -1,4 +1,2 @@
-foo:
-  version 3
-defaultName:
-  jack
+foo = foo version 3
+defaultName = jack
