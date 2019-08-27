@@ -2,7 +2,7 @@ server:
   port: 8762
 
 env:
-  dev888
+  dev999
 
 defaultName:
   jack
