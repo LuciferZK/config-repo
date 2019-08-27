@@ -1,15 +1,10 @@
   env:
     dev
-    
-  server:
-    port: 8762
-        
+       
   defaultName:
     jack
 
   spring:
-    application:
-      name: morning-service-order
     datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
       username: root
@@ -20,7 +15,4 @@
     client:
       serviceUrl:
         defaultZone: http://localhost:8761/eureka/
-        
-  logging:
-    level:
-      com.lucifer.order.dao: debug
+
