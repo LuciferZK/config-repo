@@ -36,4 +36,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 logging:
   level:
-    com.lucifer.order.dao: debug
+    com.lucifer.demo.dao: debug
