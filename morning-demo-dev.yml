@@ -18,7 +18,7 @@ spring:
           group: order
           content-type: application/json
   zipkin:
-    base-url: http://192.168.1.14:9411/
+    base-url: http://192.168.87.132:9411/
     sender:
       type: web
     sleuth:
@@ -28,7 +28,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://192.168.1.14:3306/test?autoReconnect=true&useUnicode=true&createDatabaseIfNotExist=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://192.168.87.132:3306/test?autoReconnect=true&useUnicode=true&createDatabaseIfNotExist=true&characterEncoding=utf8&serverTimezone=UTC
 
 eureka:
   client:
